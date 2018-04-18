@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F874DDD2066C612001FD89F /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F874DDC2066C612001FD89F /* ShareViewController.swift */; };
+		4F874DE02066C612001FD89F /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F874DDE2066C612001FD89F /* MainInterface.storyboard */; };
+		4F874DE42066C612001FD89F /* Prometheus_share.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4F874DDA2066C612001FD89F /* Prometheus_share.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4F874DEA2066C73A001FD89F /* getURL.js in Resources */ = {isa = PBXBuildFile; fileRef = 4F874DE92066C73A001FD89F /* getURL.js */; };
+		4FD0F6C720337307003776FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD0F6C620337307003776FB /* AppDelegate.swift */; };
+		4FD0F6C920337307003776FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD0F6C820337307003776FB /* ViewController.swift */; };
+		4FD0F6CC20337307003776FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD0F6CA20337307003776FB /* Main.storyboard */; };
+		4FD0F6CE20337307003776FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FD0F6CD20337307003776FB /* Assets.xcassets */; };
+		4FD0F6D120337307003776FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FD0F6CF20337307003776FB /* LaunchScreen.storyboard */; };
+		4FD0F6DC20337307003776FB /* PrometheusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD0F6DB20337307003776FB /* PrometheusTests.swift */; };
+		4FD0F6E720337307003776FB /* PrometheusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD0F6E620337307003776FB /* PrometheusUITests.swift */; };
+		4FFDD448207C5DFD004D0D39 /* dist in Resources */ = {isa = PBXBuildFile; fileRef = 4FFDD447207C5DFD004D0D39 /* dist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F874DE22066C612001FD89F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FD0F6BB20337307003776FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F874DD92066C612001FD89F;
+			remoteInfo = Prometheus_share;
+		};
+		4FD0F6D820337307003776FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FD0F6BB20337307003776FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FD0F6C220337307003776FB;
+			remoteInfo = Prometheus;
+		};
+		4FD0F6E320337307003776FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FD0F6BB20337307003776FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FD0F6C220337307003776FB;
+			remoteInfo = Prometheus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4F874DE82066C612001FD89F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4F874DE42066C612001FD89F /* Prometheus_share.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4F3FA23C206FEDAA00ECD37F /* Prometheus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Prometheus.entitlements; sourceTree = "<group>"; };
+		4F874DDA2066C612001FD89F /* Prometheus_share.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Prometheus_share.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F874DDC2066C612001FD89F /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		4F874DDF2066C612001FD89F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		4F874DE12066C612001FD89F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F874DE92066C73A001FD89F /* getURL.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = getURL.js; sourceTree = "<group>"; };
+		4FD0F6C320337307003776FB /* Prometheus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prometheus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD0F6C620337307003776FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FD0F6C820337307003776FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FD0F6CB20337307003776FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FD0F6CD20337307003776FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FD0F6D020337307003776FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FD0F6D220337307003776FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD0F6D720337307003776FB /* PrometheusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrometheusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD0F6DB20337307003776FB /* PrometheusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrometheusTests.swift; sourceTree = "<group>"; };
+		4FD0F6DD20337307003776FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FD0F6E220337307003776FB /* PrometheusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrometheusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD0F6E620337307003776FB /* PrometheusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrometheusUITests.swift; sourceTree = "<group>"; };
+		4FD0F6E820337307003776FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FFDD447207C5DFD004D0D39 /* dist */ = {isa = PBXFileReference; lastKnownFileType = folder; name = dist; path = ../../prometheus_v2_js/dist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F874DD72066C612001FD89F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD0F6C020337307003776FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD0F6D420337307003776FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD0F6DF20337307003776FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F3FA23D206FEDC300ECD37F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F874DDB2066C612001FD89F /* Prometheus_share */ = {
+			isa = PBXGroup;
+			children = (
+				4F874DDC2066C612001FD89F /* ShareViewController.swift */,
+				4F874DDE2066C612001FD89F /* MainInterface.storyboard */,
+				4F874DE12066C612001FD89F /* Info.plist */,
+				4F874DE92066C73A001FD89F /* getURL.js */,
+			);
+			path = Prometheus_share;
+			sourceTree = "<group>";
+		};
+		4FD0F6BA20337307003776FB = {
+			isa = PBXGroup;
+			children = (
+				4FD0F6C520337307003776FB /* Prometheus */,
+				4FD0F6DA20337307003776FB /* PrometheusTests */,
+				4FD0F6E520337307003776FB /* PrometheusUITests */,
+				4F874DDB2066C612001FD89F /* Prometheus_share */,
+				4FD0F6C420337307003776FB /* Products */,
+				4F3FA23D206FEDC300ECD37F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4FD0F6C420337307003776FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FD0F6C320337307003776FB /* Prometheus.app */,
+				4FD0F6D720337307003776FB /* PrometheusTests.xctest */,
+				4FD0F6E220337307003776FB /* PrometheusUITests.xctest */,
+				4F874DDA2066C612001FD89F /* Prometheus_share.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FD0F6C520337307003776FB /* Prometheus */ = {
+			isa = PBXGroup;
+			children = (
+				4F3FA23C206FEDAA00ECD37F /* Prometheus.entitlements */,
+				4FD0F6C620337307003776FB /* AppDelegate.swift */,
+				4FD0F6C820337307003776FB /* ViewController.swift */,
+				4FD0F6CA20337307003776FB /* Main.storyboard */,
+				4FFDD447207C5DFD004D0D39 /* dist */,
+				4FD0F6CD20337307003776FB /* Assets.xcassets */,
+				4FD0F6CF20337307003776FB /* LaunchScreen.storyboard */,
+				4FD0F6D220337307003776FB /* Info.plist */,
+			);
+			path = Prometheus;
+			sourceTree = "<group>";
+		};
+		4FD0F6DA20337307003776FB /* PrometheusTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FD0F6DB20337307003776FB /* PrometheusTests.swift */,
+				4FD0F6DD20337307003776FB /* Info.plist */,
+			);
+			path = PrometheusTests;
+			sourceTree = "<group>";
+		};
+		4FD0F6E520337307003776FB /* PrometheusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4FD0F6E620337307003776FB /* PrometheusUITests.swift */,
+				4FD0F6E820337307003776FB /* Info.plist */,
+			);
+			path = PrometheusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F874DD92066C612001FD89F /* Prometheus_share */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F874DE72066C612001FD89F /* Build configuration list for PBXNativeTarget "Prometheus_share" */;
+			buildPhases = (
+				4F874DD62066C612001FD89F /* Sources */,
+				4F874DD72066C612001FD89F /* Frameworks */,
+				4F874DD82066C612001FD89F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Prometheus_share;
+			productName = Prometheus_share;
+			productReference = 4F874DDA2066C612001FD89F /* Prometheus_share.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		4FD0F6C220337307003776FB /* Prometheus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD0F6EB20337307003776FB /* Build configuration list for PBXNativeTarget "Prometheus" */;
+			buildPhases = (
+				4FD0F6BF20337307003776FB /* Sources */,
+				4FD0F6C020337307003776FB /* Frameworks */,
+				4FD0F6C120337307003776FB /* Resources */,
+				4F874DE82066C612001FD89F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F874DE32066C612001FD89F /* PBXTargetDependency */,
+			);
+			name = Prometheus;
+			productName = Prometheus;
+			productReference = 4FD0F6C320337307003776FB /* Prometheus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FD0F6D620337307003776FB /* PrometheusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD0F6EE20337307003776FB /* Build configuration list for PBXNativeTarget "PrometheusTests" */;
+			buildPhases = (
+				4FD0F6D320337307003776FB /* Sources */,
+				4FD0F6D420337307003776FB /* Frameworks */,
+				4FD0F6D520337307003776FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FD0F6D920337307003776FB /* PBXTargetDependency */,
+			);
+			name = PrometheusTests;
+			productName = PrometheusTests;
+			productReference = 4FD0F6D720337307003776FB /* PrometheusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FD0F6E120337307003776FB /* PrometheusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FD0F6F120337307003776FB /* Build configuration list for PBXNativeTarget "PrometheusUITests" */;
+			buildPhases = (
+				4FD0F6DE20337307003776FB /* Sources */,
+				4FD0F6DF20337307003776FB /* Frameworks */,
+				4FD0F6E020337307003776FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FD0F6E420337307003776FB /* PBXTargetDependency */,
+			);
+			name = PrometheusUITests;
+			productName = PrometheusUITests;
+			productReference = 4FD0F6E220337307003776FB /* PrometheusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FD0F6BB20337307003776FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = NewsCart;
+				TargetAttributes = {
+					4F874DD92066C612001FD89F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4FD0F6C220337307003776FB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+					4FD0F6D620337307003776FB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4FD0F6C220337307003776FB;
+					};
+					4FD0F6E120337307003776FB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4FD0F6C220337307003776FB;
+					};
+				};
+			};
+			buildConfigurationList = 4FD0F6BE20337307003776FB /* Build configuration list for PBXProject "Prometheus" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FD0F6BA20337307003776FB;
+			productRefGroup = 4FD0F6C420337307003776FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FD0F6C220337307003776FB /* Prometheus */,
+				4FD0F6D620337307003776FB /* PrometheusTests */,
+				4FD0F6E120337307003776FB /* PrometheusUITests */,
+				4F874DD92066C612001FD89F /* Prometheus_share */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F874DD82066C612001FD89F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F874DE02066C612001FD89F /* MainInterface.storyboard in Resources */,
+				4F874DEA2066C73A001FD89F /* getURL.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD0F6C120337307003776FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FFDD448207C5DFD004D0D39 /* dist in Resources */,
+				4FD0F6D120337307003776FB /* LaunchScreen.storyboard in Resources */,
+				4FD0F6CE20337307003776FB /* Assets.xcassets in Resources */,
+				4FD0F6CC20337307003776FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD0F6D520337307003776FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD0F6E020337307003776FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F874DD62066C612001FD89F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F874DDD2066C612001FD89F /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD0F6BF20337307003776FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD0F6C920337307003776FB /* ViewController.swift in Sources */,
+				4FD0F6C720337307003776FB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD0F6D320337307003776FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD0F6DC20337307003776FB /* PrometheusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FD0F6DE20337307003776FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD0F6E720337307003776FB /* PrometheusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F874DE32066C612001FD89F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F874DD92066C612001FD89F /* Prometheus_share */;
+			targetProxy = 4F874DE22066C612001FD89F /* PBXContainerItemProxy */;
+		};
+		4FD0F6D920337307003776FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FD0F6C220337307003776FB /* Prometheus */;
+			targetProxy = 4FD0F6D820337307003776FB /* PBXContainerItemProxy */;
+		};
+		4FD0F6E420337307003776FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FD0F6C220337307003776FB /* Prometheus */;
+			targetProxy = 4FD0F6E320337307003776FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F874DDE2066C612001FD89F /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F874DDF2066C612001FD89F /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		4FD0F6CA20337307003776FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FD0F6CB20337307003776FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FD0F6CF20337307003776FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FD0F6D020337307003776FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F874DE52066C612001FD89F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W82NS7G9T7;
+				INFOPLIST_FILE = Prometheus_share/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Newscart.Prometheus.Prometheus-share";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F874DE62066C612001FD89F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W82NS7G9T7;
+				INFOPLIST_FILE = Prometheus_share/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.Newscart.Prometheus.Prometheus-share";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4FD0F6E920337307003776FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FD0F6EA20337307003776FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FD0F6EC20337307003776FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W82NS7G9T7;
+				INFOPLIST_FILE = Prometheus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.Newscart.Prometheus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FD0F6ED20337307003776FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W82NS7G9T7;
+				INFOPLIST_FILE = Prometheus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.Newscart.Prometheus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4FD0F6EF20337307003776FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W82NS7G9T7;
+				INFOPLIST_FILE = PrometheusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = newscart.PrometheusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prometheus.app/Prometheus";
+			};
+			name = Debug;
+		};
+		4FD0F6F020337307003776FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W82NS7G9T7;
+				INFOPLIST_FILE = PrometheusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = newscart.PrometheusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prometheus.app/Prometheus";
+			};
+			name = Release;
+		};
+		4FD0F6F220337307003776FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W82NS7G9T7;
+				INFOPLIST_FILE = PrometheusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = newscart.PrometheusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Prometheus;
+			};
+			name = Debug;
+		};
+		4FD0F6F320337307003776FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W82NS7G9T7;
+				INFOPLIST_FILE = PrometheusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = newscart.PrometheusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Prometheus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F874DE72066C612001FD89F /* Build configuration list for PBXNativeTarget "Prometheus_share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F874DE52066C612001FD89F /* Debug */,
+				4F874DE62066C612001FD89F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD0F6BE20337307003776FB /* Build configuration list for PBXProject "Prometheus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD0F6E920337307003776FB /* Debug */,
+				4FD0F6EA20337307003776FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD0F6EB20337307003776FB /* Build configuration list for PBXNativeTarget "Prometheus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD0F6EC20337307003776FB /* Debug */,
+				4FD0F6ED20337307003776FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD0F6EE20337307003776FB /* Build configuration list for PBXNativeTarget "PrometheusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD0F6EF20337307003776FB /* Debug */,
+				4FD0F6F020337307003776FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FD0F6F120337307003776FB /* Build configuration list for PBXNativeTarget "PrometheusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD0F6F220337307003776FB /* Debug */,
+				4FD0F6F320337307003776FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FD0F6BB20337307003776FB /* Project object */;
+}
